@@ -13,14 +13,16 @@
     <main>
         
         <form>
-            <label for="adress">Адрес дома</label>
-            <input type="text" required name="adress" placeholder="Введите адресс дома">
+            <label for="adresss">Адрес дома</label>
+            <input class="in" type="text" required name="adress" placeholder="Введите адресс дома">
             <label for="phone">Номер телефона</label>
-            <input type="number" required name="phone" placeholder="Введите номер телефона">
+            <input class="in" type="tel" required name="phone" placeholder="Введите номер телефона">
             <div class="yn"><input type="radio" name="pay" ><label for="pay">Оплатить сразу</label></div>
             <div class="yn"><input type="radio" name="pay" checked><label for="pay">Оплатить при выдаче доставки</label></div>
-            <input type="submit" href="main.html">
+            <input type="submit">
+            <a href="main.html"><input type="button" href="main.html" value="Выход"></a>
         </form>
+        
     </main>
 </body>
 </html>
